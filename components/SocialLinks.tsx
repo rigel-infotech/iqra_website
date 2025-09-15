@@ -50,6 +50,7 @@ const SocialLinks = () => {
         {/* Collapsible Icons */}
         <AnimatePresence>
           {isOpen &&
+          
             socialIcons.map(({ icon: Icon, href, label }, i) => (
               <motion.div
                 key={label}
